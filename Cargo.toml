@@ -3,9 +3,17 @@ name = "hesh_avatar"
 version = "0.1.0"
 authors = ["oldcat"]
 edition = "2018"
+readme = "README.md"
+description = "rust生成随机头像的库"
+repository = "https://github.com/t924417424/rust_hash_avatar"
+homepage = "https://github.com/t924417424/rust_hash_avatar"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
+rand = {version="0.8.3"}
+image = {version="0.23.14"}
+
+[dev-dependencies]
 rand = "0.8.3"
 image = "0.23.14"
