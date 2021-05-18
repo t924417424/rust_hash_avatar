@@ -1,6 +1,3 @@
-# rust_hash_avatar
-## rust编写的hash头像生成库
-```rust
 use hesh_avatar::Generator;
 
 fn main() {
@@ -16,15 +13,3 @@ fn main() {
         .save_to_png("fractal2.png")
         .unwrap();
 }
-```
-
-## 运行Example
-```sh
-git pull https://github.com/t924417424/rust_hash_avatar.git master
-cd rsut_hash_avatar
-cargo run --example test
-```
-
-## 生成结果
-![测试1](./fractal.png)
-![测试2](./fractal2.png)
