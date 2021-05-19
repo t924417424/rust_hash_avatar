@@ -1,7 +1,7 @@
 # rust_hash_avatar
 ## rust编写的hash头像生成库
 ```rust
-use hesh_avatar::Generator;
+use hash_avatar::Generator;
 
 fn main() {
     Generator::new()
