@@ -1,4 +1,4 @@
-use hesh_avatar::Generator;
+use hash_avatar::Generator;
 
 fn main() {
     Generator::new()
