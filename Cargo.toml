@@ -1,11 +1,12 @@
 [package]
 name = "hash_avatar"
-version = "0.1.1"
+version = "0.1.2"
+license = "Apache-2.0/MIT"
 authors = ["oldcat <924417424@qq.com>"]
 edition = "2018"
 readme = "README.md"
 description = "rust生成随机头像的库"
-categories = ["hash", "avatar", "image"]
+categories = ["algorithms", "encoding", "filesystem","graphics"]
 repository = "https://github.com/t924417424/rust_hash_avatar"
 homepage = "https://github.com/t924417424/rust_hash_avatar"
 
