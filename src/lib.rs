@@ -124,3 +124,9 @@ impl Generator {
         };
     }
 }
+
+impl Drop for Generator {
+    fn drop(&mut self) {
+        println!("{}", "drop");
+    }
+}

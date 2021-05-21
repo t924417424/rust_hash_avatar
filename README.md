@@ -1,5 +1,8 @@
 # rust_hash_avatar
 ## rust编写的hash头像生成库
+
+## [在https://crates.io中查看](https://crates.io/crates/hash_avatar)
+
 ```rust
 use hash_avatar::Generator;
 

@@ -1,5 +1,4 @@
 use hash_avatar::Generator;
-
 fn main() {
     Generator::new()
         .create()
