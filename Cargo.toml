@@ -6,16 +6,12 @@ authors = ["oldcat <924417424@qq.com>"]
 edition = "2018"
 readme = "README.md"
 description = "rust生成随机头像的库"
-categories = ["algorithms", "encoding", "filesystem","graphics"]
+categories = ["algorithms", "encoding", "filesystem", "graphics"]
 repository = "https://github.com/t924417424/rust_hash_avatar"
 homepage = "https://github.com/t924417424/rust_hash_avatar"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
-rand = {version="0.8.3"}
-image = {version="0.23.14"}
-
-[dev-dependencies]
-rand = "0.8.3"
-image = "0.23.14"
+rand = { version = "0.8.5" }
+image = { version = "0.24.1", features = ["png"], default-features = false }
